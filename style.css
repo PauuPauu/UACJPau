@@ -1,0 +1,53 @@
+*{ margin: 0px; padding: 0px;
+}
+
+header{
+ text-align: center;  
+ font-size: xx-large;
+ color: cornsilk;
+
+}
+body {
+    background-image: url(https://www.teahub.io/photos/full/248-2489866_descargar-fondos-de-pantalla-super-mario-bross-hd.jpg);
+}
+.bg-playgame{
+    display: block;
+    height: 100%;
+    width: 100%;
+    
+}
+.escena{
+      display: block;
+      position: absolute;
+      top: 100px;
+      left: 100px;
+      z-index: 100;
+}
+.mario{
+display: block;
+left: 120px;
+position: relative;
+top: 560px;
+z-index: 100;
+}
+.control{
+display: block;
+left: 500px;
+top: 760px;
+position: absolute;
+z-index: 200;
+}
+.title{
+display: block;
+left: 500px;
+top: 0px;
+position: absolute;
+z-index: 300;
+}
+.audio{
+    display: block;
+    left: 100px;
+    top: 40px;
+    position: absolute;
+    z-index: 400;
+}
